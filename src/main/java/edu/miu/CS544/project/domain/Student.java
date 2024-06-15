@@ -10,6 +10,7 @@ import java.util.List;
 @Data
 @Table(name = "Student")
 public class Student extends Person {
+
     @Column(name = "Entry")
     private String entry;
     @ManyToOne
