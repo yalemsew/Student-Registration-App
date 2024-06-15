@@ -12,9 +12,13 @@ public class Person {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     private Date birthdate;
+
     @Column(name = "EmailAddress")
+
     private String emailAddress;
+
     @Enumerated(EnumType.STRING)
     @Column(name = "GenderType")
     private GenderType genderType;
