@@ -1,4 +1,4 @@
-package com.quping.project.domain;
+package edu.miu.CS544.project.domain;
 
 import jakarta.persistence.Embeddable;
 import lombok.Data;
